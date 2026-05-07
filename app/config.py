@@ -2,8 +2,7 @@ from pathlib import Path
 import os
 
 PROJECT_ROOT = Path(__file__).parent.parent
-DB_PATH      = Path(os.environ.get("DB_PATH",
-                    str(PROJECT_ROOT / "database" / "scanner.duckdb")))
+DB_PATH = Path(os.environ.get("DB_PATH", str(PROJECT_ROOT / "database" / "scanner.duckdb")))
 DATA_DIR     = PROJECT_ROOT / "data"
 ZONING_DIR   = DATA_DIR / "raw" / "zoning"
 CONTEXT_DIR  = DATA_DIR / "raw" / "context"
