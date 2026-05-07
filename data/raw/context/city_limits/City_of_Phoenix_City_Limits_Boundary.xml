@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20240808</pubdate>
+                <pubtime>080000</pubtime>
+                <title>City of Phoenix City Limits Boundary</title>
+                <onlink>https://maps.phoenix.gov/pub/rest/services/Public/CityLimit/MapServer/8</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The content of this data is to show the City of Phoenix City Limits boundary as updated by city staff. This is a live dataset and will reflect any changes to the boundary of the city as adjusted by city ordinances for annexation and deannexation. The default symbology for this layer is an orange outline, but can be adjusted in a map viewer to be displayed in different formats.</abstract>
+            <purpose>Data which shows the official city limits boundary for the City of Phoenix. The boundary by default is an orange outline, but can be adjusted to be shown in any color scheme.</purpose>
+        </descript>
+        <status>
+            <update>Continually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-113.4702</westbc>
+                <eastbc>-110.9415</eastbc>
+                <northbc>34.1611</northbc>
+                <southbc>32.4341</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Boundary</themekey>
+                <themekey>City Limits</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>This Data is subject to the Terms of Use (Terms) that accompany its distribution. You should read and understand Terms before using City Data. By continuing use of the Data, or accessing any materials on the Site, you agree to these Terms, as they may be updated or modified by City at any time in its discretion. If you (Licensee) do not agree to them, do not use or download any material.</useconst>
+        <datacred>City of Phoenix Enterprise GIS (EGIS) and the City of Phoenix Streets Department (STR)</datacred>
+    </idinfo>
+    <metainfo>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>City of Phoenix</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <city>Phoenix</city>
+                    <state>AZ</state>
+                    <postal>85003</postal>
+                </cntaddr>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata
