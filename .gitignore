@@ -6,5 +6,5 @@ __pycache__/
 *.log
 .vscode/
 .idea/
-pipeline/
-database/
+/pipeline/
+/database/
