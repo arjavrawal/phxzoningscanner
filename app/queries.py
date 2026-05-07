@@ -27,7 +27,7 @@ PROJECT_CRS = "EPSG:2868"
 # ── Connection ────────────────────────────────────────────────────────────────
 
 def _con() -> duckdb.DuckDBPyConnection:
-    con = duckdb.connect(str(DB_PATH))
+    con = duckdb.connect(str(DB_PATH), read_only=True)
     con.execute("INSTALL spatial; LOAD spatial;")
     return con
 
