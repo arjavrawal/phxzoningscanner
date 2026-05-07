@@ -1,15 +1,4 @@
----
-title: Phoenix Zoning Scanner
-emoji: 🏘️
-colorFrom: yellow
-colorTo: red
-sdk: docker
-app_port: 7860
-pinned: false
-license: apache-2.0
----
-
-# Phoenix Upzoning Scanner
+# Phoenix Zoning Scanner
 
 A parcel-level analytical tool identifying where missing middle housing (MMH) is feasible, but legally prohibited, across the City of Phoenix.
 
@@ -21,10 +10,7 @@ A parcel-level analytical tool identifying where missing middle housing (MMH) is
 
 ## Live application
 
-🔗 **Hosted (graded):** https://huggingface.co/spaces/sgsup-asu/phxzoningscanner
-🔗 **Hosted (development):** https://huggingface.co/spaces/arjavrawal/phxzoningscanner
-
-![Application screenshot](screenshot.png)
+Link TBC
 
 *The application landing screen shows the citywide summary; selecting an Urban Village or drawing a polygon recomputes the scorecard for that area.*
 
